@@ -1,6 +1,6 @@
 import "./gfx.scss";
 
-const date = "2021/1/1";
+const date = "2021/2/1";
 
 const updateDate = new Date(date).getTime();
 
