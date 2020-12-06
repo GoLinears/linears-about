@@ -1,0 +1,93 @@
+@import "../components//gfx/gfx.scss";
+@import "../components/text/text.scss";
+
+@font-face {
+  font-family: "Manrope";
+  src: url("./fonts/Manrope-Regular.ttf") format("ttf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Manrope", Arial, Helvetica, sans-serif;
+  background: linear-gradient(90deg, rgba(247,249,252,1) 0%, rgba(247,249,252,1) 40%, rgba(255,255,255,1) 40%, rgba(255,255,255,1) 100%);
+  color: #888;
+}
+
+// Laoder
+#loader {
+  background-color: #fff;
+  z-index: 999;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  height: 100vh;
+  width: 100%;
+
+  transition: opacity 0.6s ease;
+  opacity: 1;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 75px;
+    height: 75px;
+
+    border: 10px solid #e5eaef;
+    border-top: 10px solid #7bb8e5;
+    border-radius: 50%;
+
+    transform: translate(-50%, -50%);
+    animation: spinning 1s linear 0s infinite;
+  }
+
+  &.hidden {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes spinning {
+  from {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+// Content
+.content {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  body {
+    background: none;
+  }
+  .content {
+    display: block;
+    .text, gfx {
+      margin: 0 auto;
+    }
+  }
+}
+
+@media (min-width: 2000px) {
+  body {
+    background: none;
+  }
+}

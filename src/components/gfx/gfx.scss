@@ -1,0 +1,19 @@
+.gfx {
+  order: -1;
+  padding: 20px 0;
+
+  width: 30%;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .gfx {  
+    width: 100%;
+    height: auto;
+    background-color: #F7F9FC;
+    svg {
+      position: static;
+      max-width: 500px;
+    }
+  }  
+}

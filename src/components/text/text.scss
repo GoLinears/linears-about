@@ -1,0 +1,44 @@
+.text {
+  order: -1;
+  margin: 200px 0;
+  max-width: 54%;
+  padding: 0 14px;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 0;
+}
+
+h1 + p {
+  color: #555;
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.6rem;
+  color: #888888;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+p:last-child{ 
+  margin-bottom: 50px;
+}
+
+a {
+  color: #75B3F0;
+  transition: color .6s ease;
+  &:hover {
+    color: #86C1CC;
+  }
+}
+
+@media (max-width: 768px) {
+  .text {
+    max-width: 100%;
+    width: 100%;
+    margin: 20px 0;
+  }
+}
