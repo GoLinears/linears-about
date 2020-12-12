@@ -6,6 +6,10 @@
     </p>
 </div>
 
-Name Linears is inspired by how I like I like linear equastions in math. Linear equations in math hve constent change and are predicable. 
+Name Linears is inspired by how I like linear equations in math. Linear
+equations in math have constant change and are predicable.
 
-Linears is a startup Swedish company started by me [Hamza Khuswan](https://hamzakhuswan.com)  with this idea in mind. My goal, is to provide helpful services or products for people. Now I am mostly doing website, but I have bigger vision. So stay tooned for updates.
+Linears is a startup Swedish company started by me [Hamza
+Khuswan](https://hamzakhuswan.com) with this idea in mind. My goal is to provide
+helpful services or products for people. Now I am mostly doing websites, but I
+have bigger vision. So, stay tuned for updates.
