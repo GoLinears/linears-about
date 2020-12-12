@@ -1,0 +1,1 @@
+(()=>{"use strict";var e=document.getElementById("loader");document.addEventListener("DOMContentLoaded",(function(){document.body.removeChild(e)}))})();
