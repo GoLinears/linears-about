@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="./linears.png" width="200px">
+    <img src="./public/logo192.png" width="200px">
     <h1>This is Linears</h1> 
     <p>
         Landing page: <a href="https://linears.io">Linears.io</a>
